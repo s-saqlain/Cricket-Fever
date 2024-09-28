@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Italiana&family=Italianno&family=Lexend+Tera:wght@100..900&family=Megrim&family=Notable&family=Sedan+SC&family=Trade+Winds&family=Wix+Madefor+Display:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(0, 183, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+nav h3{
+    font-family: "Lexend Tera", sans-serif;
+}
+
+nav ul{
+    width: 50%;
+    font-family: "Megrim", system-ui;
+    font-weight: 600;
+    display:flex ;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav h3{
+    padding: 5px 10px;
+    border-radius: 34px;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#SectionHome{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#SectionHome .mainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#right-image{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.details{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.details p{
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+.details h2{
+    font-family: "Italiana", system-ui;
+}
+
+#Kapil-Dev{
+    float:left ;
+    margin:20px 20px  0px 10px;
+     
+}
+
+.rightimg{
+    float: right;
+    margin-left: 10px;
+}
+
+.leftimg{
+    float: left;
+    margin-right: 10px;
+}
+
+#SectionPlayer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#SectionPlayer h1{
+    position: absolute;
+    top: 450%;
+    left: 22%;
+    z-index: 999;
+    color: white;
+    display: flex;
+    font-size: 140px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Notable", sans-serif;
+}
+
+#bgVideo{
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.cardContainer{
+   margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.card h4{
+    font-family:  "Contrail One", sans-serif;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   border-radius: 13px;
+   box-shadow: 5px 5px 5px gray;
+   padding-bottom: 10px;
+   background-color: rgb(218, 218, 218);
+}
+
+.card img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.location{
+    padding: 4px;
+    width: 50%;
+    border-radius: 8px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 4px;
+}
+
+.location a{
+    color: white;
+    text-decoration-line: none;
+}
+
+.STATISTICS a, .ACHIEVEMENTS a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:  "Italiana", system-ui;
+}
+
+#SectionMemorable{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#SectionMemorable h2{
+    font-family: "Notable", sans-serif;
+}
+
+#SectionFan-Zone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#SectionFan-Zone h1{
+    font-family: "Contrail One", sans-serif;
+    font-size: 70px;
+    text-shadow: 2px 2px red;
+}
+
+#SectionFan-Zone h3{
+    font-family: "Sedan SC", serif;
+}
+
+#name{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(196, 196, 196);
+    margin-bottom: 20px;
+}
+
+#textarea{
+    margin-top: 3px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid rgb(196, 196, 196);
+    margin-bottom: 20px;
+}
+
+#stories{
+    
+    margin-top: 20px;
+}
+
+#link{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+button{
+    padding: 3px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-radius: 23px;
+    border: none;
+    background-color: #7d7d7d;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #404040;
+    color: white;
+}
